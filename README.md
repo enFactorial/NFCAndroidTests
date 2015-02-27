@@ -1,6 +1,6 @@
 # NFCAndroidTests
 
-All Tests are Android Studio projects.
+All Tests are Android Studio projects compiled in Ubuntu 14.04 and ran on a Nexus 5.
 
 The first tests are quite ugly as I was learning how Java and Android works.
 
