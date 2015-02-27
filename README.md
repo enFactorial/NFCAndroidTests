@@ -50,9 +50,9 @@ android:resource="@xml/nfc_tech_filter"/>
 and in xml/nfc_tech_filter:
 ```xml
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<tech-list>
-<tech>android.nfc.tech.NfcA</tech>
-</tech-list>
+   <tech-list>
+      <tech>android.nfc.tech.NfcA</tech>
+   </tech-list>
 </resources>
 ```
 #### Outcome: When the NfcA tag (white CC looking NFC) is swiped the app starts. If I change NfcA to IsoDep (ISO-14443-4) and swipe K1 the app does not start and the low pitch sound is played.
