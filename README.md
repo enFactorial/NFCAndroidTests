@@ -18,7 +18,9 @@ Tried the following in AndroidManifest.xml:
 </intent-filter>
 ```
 
-#### Outcome: The sound played when the NFC tag is swiped has changed (it’s high pitched, more cheerful) from previous code tests (i.e. test3). Though the app is still not started automatically. By adding inside the <intent-filter> to get this: 
+#### Outcome Case 1: 
+
+The sound played when the NFC tag is swiped has changed (it’s high pitched, more cheerful) from previous code tests (i.e. test3). Though the app is still not started automatically. By adding inside the <intent-filter> to get this: 
 ```xml
 <intent-filter>
   <action android:name="android.nfc.action.TAG_DISCOVERED"/>
@@ -36,7 +38,9 @@ If I swipe the K1 the low pitch sound is played and the app does not start.
   <data android:mimeType="text/plain" />
 </intent-filter>
 ```
-#### Outcome: The sound played when the NFC tag is swiped is low pitched the same as in previous tests (i.e. test 3)
+#### Outcome case 2: 
+
+The sound played when the NFC tag is swiped is low pitched the same as in previous tests (i.e. test 3)
 
 ### Case 3:
 ```xml
@@ -55,7 +59,9 @@ and in xml/nfc_tech_filter:
    </tech-list>
 </resources>
 ```
-#### Outcome: When the NfcA tag (white CC looking NFC) is swiped the app starts. If I change NfcA to IsoDep (ISO-14443-4) and swipe K1 the app does not start and the low pitch sound is played.
+#### Outcome case 3: 
+
+When the NfcA tag (white CC looking NFC) is swiped the app starts. If I change NfcA to IsoDep (ISO-14443-4) and swipe K1 the app does not start and the low pitch sound is played.
 
 
 ## NFC-Test5 
