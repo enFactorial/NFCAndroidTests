@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">NFCWriteTag</string>
+    <string name="tap_something">Tap an NFC tag</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Write to NFC tag</string>
+    <string name="content_description">Content</string>
+    <string name="nfc_setting">NFC is currently disabled in your settings. You cannot read or write NFC tags.</string>
+
+</resources>

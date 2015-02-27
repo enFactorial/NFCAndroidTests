@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nfc_settings_layout"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/background_rounded" >
+    <ImageView
+        android:id="@+id/nfcsettings_layout_image"
+        android:contentDescription="@string/content_description"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/toast_touch"
+        />
+    <TextView
+        android:id="@+id/nfcsettings_layout_text"
+        android:layout_below="@+id/nfcsettings_layout_image"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/dkgray"
+        android:textStyle="bold"
+        android:shadowColor="@color/ltgray"
+        android:shadowRadius="3"
+        android:shadowDy="2"
+        android:shadowDx="2"
+        android:layout_marginTop="5dp"
+        android:text="@string/nfc_setting"
+        />
+</RelativeLayout>

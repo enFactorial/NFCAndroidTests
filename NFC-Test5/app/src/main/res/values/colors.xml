@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color
+        name="logo_color">#CC9900</color>
+    <color
+        name="version_color">#333333</color>
+    <color
+        name="version_bkgrd">#CCCCCC</color>
+    <color
+        name="icon_text">#333333</color>
+    <color
+        name="viewall_glow">#FFFFFF</color>
+    <color
+        name="white">#FFFFFF</color>
+    <color
+        name="ltgray">#CCCCCC</color>
+    <color
+        name="nfcblue">#0066CC</color>
+    <color
+        name="gray">#666666</color>
+    <color
+        name="dkgray">#333333</color>
+    <color
+        name="x_ltgray">#DFDFDF</color>
+    <color
+        name="orange">#FF9900</color>
+    <color
+        name="button_start">#90b4eb</color>
+    <color
+        name="button_end">#0167FF</color>
+    <color
+        name="light_blue">#8FD7FF</color>
+    <color
+        name="black">#000000</color>
+    <color
+        name="opaque_red">#f00</color>
+    <color
+        name="translucent_red">#80ff0000</color>
+    <color
+        name="trans">#80FFFFFF</color>
+</resources>
